@@ -1,0 +1,122 @@
+@media all and (max-width: 768px) {
+    .rs-logo {
+        display: block !important;
+    }
+    .logo-menu {
+        display: none !important;
+    }
+}
+@media all and (max-width: 767px) {
+    .services-area .container {
+        width: 45%;
+        margin: auto;
+    }
+    .header-footer {
+        width: 100%;
+        margin: auto;
+    }
+    .about-us-photos .col-md-4 {
+        margin-bottom: 20px;
+    }
+    .mem-area .col-md-4 {
+        margin: 50px;
+    }
+    .mem-img::before {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .work-area .port .work-us img {
+        width: 100%;
+        height: auto;
+    }
+    .work-area .port .col-md-6 {
+        margin-bottom: 30px;
+    }
+    .member-area .container {
+        max-width: 60%;
+        margin: auto;
+    }
+    .footer-area .col-md-4 {
+        margin-bottom: 30px;
+    } 
+    .rs .rs-nav ul {
+        list-style: none;
+        position: absolute;
+        top: 6% !important;
+        left: 31% !important;
+    }
+    
+    
+}
+@media all and (max-width: 500px) {
+    .member-area .container {
+        max-width: 84% !important;
+        margin: auto;
+    }
+    .slider .img-area {
+        float: none !important;
+        overflow: hidden;
+    }
+    .mem-area {
+        width: 100% !important;
+        margin: auto !important;
+    }
+    /* .container {
+        max-width: 100% !important;
+        margin: auto !important;
+    } */
+    .rs .rs-nav ul {
+        list-style: none;
+        position: absolute;
+        top: 4% !important;
+        left: 27% !important;
+    }
+    
+}
+@media all and (max-width: 450px) {
+    .header-content h1 {
+        font-size: 60px !important;
+    }
+}
+@media all and (max-width: 400px) {
+    .member-area .container {
+        max-width: 94% !important;
+        margin: auto;
+    }
+    .mobile-area .mobile img {
+        position: absolute !important;
+        top: 142px !important;
+        right: -36px !important;
+    }
+    form button {
+        margin-top: 20px !important;
+    }
+    .services-body img {
+        float: none !important;
+        margin-bottom: 10px !important;
+        margin-left: 20px !important;
+    }
+    .services-body {
+        text-align: center;
+    }
+    .services-body .col-md-4 {
+        margin-bottom: 20px !important;
+    }
+    .rs .rs-nav ul {
+        list-style: none;
+        position: absolute;
+        top: 4% !important;
+        left: 20% !important;
+    }
+}
+
+@media all and  (max-width: 991px) {
+    .logo-menu .logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
